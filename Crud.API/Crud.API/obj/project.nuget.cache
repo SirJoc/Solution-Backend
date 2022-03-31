@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "iLJCbI1HUGv0H3dAGAfKpQhrN/3+mq4gpSizdHnyEEOT7YgCq+Kn1et7Bu+/t45WgR89H06nmqG1itt7GaQPRQ==",
+  "success": true,
+  "projectFilePath": "/home/aeris/Desktop/Git/Solution-Backend/Crud.API/Crud.API/Crud.API.csproj",
+  "expectedPackageFiles": [
+    "/home/aeris/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/home/aeris/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/home/aeris/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "/home/aeris/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "/home/aeris/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "/home/aeris/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
