@@ -10,7 +10,7 @@ namespace Crud.API.Domain.Services
         Task<IEnumerable<Order>> ListAsync();
         Task<IEnumerable<Order>> ListByClothIdAsync(int clothId);
         Task<OrderResponse> GetByIdAsync(int id);
-        Task<OrderResponse> SaveAsync(int clientId,Order order);
+        Task<OrderResponse> SaveAsync(int clothId, Order order);
         Task<OrderResponse> UpdateAsync(int id, Order order);
         Task<OrderResponse> DeleteAsync(int id);
     }
