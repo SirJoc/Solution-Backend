@@ -26,7 +26,7 @@ namespace Crud.API.Domain.Persistence.Contexts
             builder.Entity<Cloth>().Property(p => p.Color).IsRequired();
             //Relationships
             builder.Entity<Cloth>()
-                .HasMany(p => p.Orders)
+                .HasMany(p => p.OrdersDetails)
                 .WithOne(p => p.Cloth)
                 .HasForeignKey(p => p.ClothId);
             
@@ -46,13 +46,13 @@ namespace Crud.API.Domain.Persistence.Contexts
             builder.Entity<OrderDetail>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
             //Relationships
             builder.Entity<OrderDetail>()
-                .HasOne(p => p.Order)
-                .WithMany(p => OrderDetails)
-                .HasForeignKey(p => p.OrderId);
+                .HasOne(t => t.Order)
+                .WithMany(p => p.OrderDetails)
+                .HasForeignKey(e => e.OrderId);
             builder.Entity<OrderDetail>()
                 .HasOne(p => p.Cloth)
-                .WithMany(p => OrderDetails)
-                .HasForeignKey(p => p.OrderId);
+                .WithMany(p => p.OrdersDetails)
+                .HasForeignKey(p => p.ClothId);
             
             builder.ApplySnakeCaseNamingConvention();
         }

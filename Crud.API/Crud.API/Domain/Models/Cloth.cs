@@ -7,6 +7,6 @@ namespace Crud.API.Domain.Models
         public int Id { get; set; }
         public string Color { get; set; }
         public string Brand { get; set; }
-        public IList<Order> Orders { get; set; }
+        public IList<OrderDetail> OrdersDetails { get; set; }
     }
 }
